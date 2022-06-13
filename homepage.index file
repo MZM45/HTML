@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>✯MZM's Personal✯ </title>
+  </head>
+  <body>
+    <img src="MZM2.png" alt="Picture of MZM">
+  <h1>Muhammad Zain Momin</h1>
+  <p> <i> Student of<strong> Computer Science</strong></i> </p>
+  <p>I am also a Car Lover and I also love Computers !!</p>
+  <hr>
+  <h3>Education</h3>
+  <ul>
+    <li>I have done my Olevels from The American Foundation Cambridge School</Li>
+    <li>I have Completed my Alevels From The American Foundation College for Alevels</li>
+  </ul>
+<h3>My Hobbies</h3>
+<ol>
+  <li>Playing Video Games</li>
+  <li>Video editing</li>
+  <li>Photo Editing</li>
+  <li>Social Networks</li>
+</ol>
+<hr>
+  </body>
+</html>
