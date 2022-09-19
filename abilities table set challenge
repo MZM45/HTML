@@ -37,22 +37,23 @@
     </tr>
   </table>
   <a href="Hobbies.html">My Hobbies</a>
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>IOS Development</td>
+      <td>⭐</td>
+      <td>Android skills</td>
+      <td>⭐⭐⭐⭐</td>
+    </tr>
+    <tr>
+      <td>Web Development</td>
+      <td>⭐⭐⭐⭐⭐</td>
+      <td>Social Skills</td>
+      <td>⭐⭐⭐</td>
+    </tr>
+  </table>
 <hr>
 <a href="Contact ME.html">Contact Information</a>
-<h3>Skills</h3>
-<table cellspacing="10">
-  <tr>
-    <td>IOS Development</td>
-    <td>⭐</td>
-    <td>Android skills</td>
-    <td>⭐⭐⭐⭐</td>
-  </tr>
-  <tr>
-    <td>Web Development</td>
-    <td>⭐⭐⭐⭐⭐</td>
-    <td>Social Skills</td>
-    <td>⭐⭐⭐</td>
-  </tr>
-</table>
+
   </body>
 </html>
