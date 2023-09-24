@@ -1,0 +1,139 @@
+/* Reset some default styles for better consistency */
+body, h1, p, ul, li, form, label, input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire body */
+body {
+  background-image: url('register.jpg'); /* Replace with your image URL */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333; /* Dark gray background color */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FF4500; /* Orange text color on hover */
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height as needed */
+}
+
+/* Login Section Styles */
+.login-section {
+    background-color: #fff; /* White background color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-section form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.login-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.login-section input[type="text"],
+.login-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-section input[type="submit"] {
+    background-color: #FF4500; /* Orange button color */
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-section input[type="submit"]:hover {
+    background-color: #FF6347; /* Darker orange on hover */
+}
+footer {
+    background-color: #333; /* Dark gray background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 30px; /* Adjust the size of your social media icons */
+    margin: 0 10px; /* Add spacing between icons */
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #FF4500; /* Orange text color on hover */
+}

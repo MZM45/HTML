@@ -1,0 +1,117 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image for the entire body */
+body {
+    background-image: url('aboutbackground.jpg'); /* Replace with your image URL */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #333; /* Dark gray background color */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #FF4500; /* Orange text color on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* About Section Styles */
+.about-section {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #555; /* Gray text color */
+    margin-bottom: 20px;
+}
+
+.about-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #555; /* Gray text color */
+}
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark gray background color */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo img {
+    width: 30px; /* Adjust the size of your social media icons */
+    margin: 0 10px; /* Add spacing between icons */
+}
+
+.footer-links ul {
+    list-style-type: none;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    color: #FF4500; /* Orange text color on hover */
+}
