@@ -1,0 +1,133 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Apply a background image, background color, and text color to the body */
+body {
+    background-image: url('bgi.jpg'); /* Replace with your image file path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #333;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* CSS for Options Heading */
+.options-heading {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* CSS for Options List */
+.options-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.options-list li {
+    margin-bottom: 15px;
+}
+
+.options-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
