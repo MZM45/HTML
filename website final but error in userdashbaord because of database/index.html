@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birth and Death Registration</title>
+    <link rel="stylesheet" href="indexstyle.css" />
+
+
+  <body>
+    <h1>Birth and Death Registration System</h1>
+
+    <div class="box">
+      <div class="notice-board">
+        <ul>
+
+        </ul>
+      </div>
+      <h1>Search Appointments</h1>
+          <form action="search_results.php" method="GET">
+              <label for="user_id">Enter User ID:</label>
+              <input type="text" id="user_id" name="user_id" required>
+              <button type="submit">Search</button>
+          </form>
+          <!-- Services Area -->
+          <h2>Services</h2>
+          <ul>
+            <li>Apply & Issue birth certificate.</li>
+            <li>Apply & Issue death certificate.</li>
+            <li>Cost and charges for issuing and issued certificates.</li>
+            <style>
+                    /* Style the header */
+                    header {
+                        background-color: #333;
+                        padding: 10px;
+                        text-align: center; /* Center-align the content */
+                    }
+
+                    nav ul {
+                        list-style: none;
+                        padding: 0;
+                    }
+
+                    nav h1 {
+                        display: inline; /* Display the heading inline */
+                        margin: 0; /* Remove any default margin */
+                    }
+
+                    nav a {
+                        text-decoration: none;
+                        color: white;
+                        padding: 10px;
+                        transition: color 0.3s; /* Add a smooth color transition */
+                    }
+
+                    nav a:hover {
+                        background-color: #ff9900;
+                        color: black; /* Change the text color on hover */
+                    }
+                </style>
+            </head>
+            <body>
+                <header>
+                    <nav>
+                        <ul>
+                            <h1><a href="adminoptions.html">Admin options</a></h1>
+                        </ul>
+                    </nav>
+                </header>
+
+      <div class="login-signup">
+        <div class="login">
+          <h2>Login</h2>
+          <form action="login.php" method="post">
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+            <button type="submit">Login</button>
+          </form>
+        </div>
+        <div class="signup">
+          <h2>Sign Up</h2>
+          <form action="signup.php" method="post">
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="text" name="phone" placeholder="Phone" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              required
+            />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              required
+            />
+            <button type="submit">Sign Up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script>
+      document
+        .getElementById("search-button")
+        .addEventListener("click", function () {
+          performSearch();
+        });
+
+      document
+        .getElementById("search")
+        .addEventListener("keypress", function (e) {
+          if (e.key === "Enter") {
+            performSearch();
+          }
+        });
+
+      function performSearch() {
+        const searchTerm = document.getElementById("search").value.trim();
+        if (searchTerm !== "") {
+          // Redirect to the search page with the search term
+          window.location.href = `search.php?search=${searchTerm}`;
+        }
+      }
+
+      // Redirect to signup page when the signup button is clicked
+      document
+        .getElementById("signup-button")
+        .addEventListener("click", function () {
+          window.location.href = "signup.php";
+        });
+    </script>
+  </body>
+</html>

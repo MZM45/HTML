@@ -1,0 +1,154 @@
+
+<style>
+        /* Style the header */
+        header {
+            background-color: #333;
+            padding: 10px;
+            text-align: center; /* Center-align the content */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav h1 {
+            display: inline; /* Display the heading inline */
+            margin: 0; /* Remove any default margin */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            transition: color 0.3s; /* Add a smooth color transition */
+        }
+
+        nav a:hover {
+            background-color: #ff9900;
+            color: black; /* Change the text color on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <h1><a href="index.html">Home</a></h1>
+            </ul>
+        </nav>
+    </header>
+    <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Admin Login and Sign-Up</title>
+      <style>
+
+        body {
+          background-image: url('bgi.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          font-family: Arial, sans-serif; /* Set a default font-family */
+          color: #333; /* Default text color */
+        }
+          .admin-login {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              height: 100vh;
+          }
+
+          .container {
+              background-color: #fff;
+              padding: 20px;
+              border-radius: 5px;
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+              width: 300px;
+              text-align: center;
+          }
+
+          h2 {
+              margin-top: 0;
+          }
+
+          form {
+              margin-top: 20px;
+          }
+
+          input[type="text"],
+          input[type="password"] {
+              width: 100%;
+              padding: 10px;
+              margin-bottom: 10px;
+              border: 1px solid #ccc;
+              border-radius: 3px;
+              font-size: 16px;
+          }
+
+          button[type="submit"] {
+              background-color: #007bff;
+              color: #fff;
+              border: none;
+              border-radius: 3px;
+              padding: 10px 20px;
+              font-size: 16px;
+              cursor: pointer;
+          }
+
+          button[type="submit"]:hover {
+              background-color: #0056b3;
+          }
+
+          /* Add space between the two forms */
+          .admin-login .container:nth-child(2) {
+              margin-left: 20px;
+          }
+          input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style for the age input field */
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+      </style>
+  </head>
+  <body>
+      <div class="admin-login">
+        <div class="container">
+  <h2>Admin Sign-Up</h2>
+  <form action="admin_signup.php" method="post">
+      <input type="text" name="admin_username" placeholder="Admin Username" required />
+      <input type="password" name="admin_password" placeholder="Admin Password" required />
+      <input type="number" name="admin_age" placeholder="Admin Age" required />
+      <input type="email" name="admin_email" placeholder="Admin Email" required />
+      <button type="submit">Sign Up</button>
+  </form>
+</div>
+
+          <div class="container">
+              <h2>Admin Login</h2>
+              <form action="admin_login.php" method="post">
+                  <input type="text" name="admin_username" placeholder="Admin Username" required />
+                  <input type="password" name="admin_password" placeholder="Admin Password" required />
+                  <button type="submit">Admin Login</button>
+              </form>
+          </div>
+      </div>
+  </body>
+  </html>

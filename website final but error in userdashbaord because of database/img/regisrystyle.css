@@ -1,0 +1,91 @@
+/* Reset default margin and padding for the entire page */
+body, h1, h2, p, a, ul, li, table, th, td {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background image for the body */
+body {
+  background-image: url('registerbgm.jpg'); /* Replace with your background image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the container */
+.container {
+  max-width: 400px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Style the form header */
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style form labels */
+label {
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  color: #333;
+  text-align: left;
+}
+
+/* Style form input fields */
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+select {
+  background-color: #fff;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style success and error messages */
+.success-message {
+  color: #007BFF;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: #FF0000;
+  font-weight: bold;
+  margin-top: 10px;
+}

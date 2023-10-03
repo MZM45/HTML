@@ -1,0 +1,140 @@
+/* Set a background image for the body */
+body {
+  background-image: url('bgi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif; /* Set a default font-family */
+  color: #333; /* Default text color */
+}
+
+/* Reset some default browser styles */
+body, h1, h2, ul, li, p, form, button, input, label {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles for the body */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main heading */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+/* Style the container */
+.box {
+    background-color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the notice board */
+.notice-board ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style the search form */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Style the login and signup sections */
+.login-signup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login,
+.signup {
+    flex: 1;
+    padding: 20px;
+}
+
+.login h2,
+.signup h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Style the navigation bar */
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav h1 {
+    display: inline;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff9900;
+    color: black;
+}
+
+/* Style the services list */
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}

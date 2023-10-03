@@ -1,0 +1,111 @@
+/* Reset default margin and padding for the entire page */
+body, h1, h2, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background image for the body */
+body {
+  background-image: url('searchbgm.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif; /* Set a default font-family */
+  color: #333; /* Default text color */
+  display: flex; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 100vh; /* Make the body at least as tall as the viewport */
+}
+
+/* Style the header */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #fff; /* Text color for the header */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for better visibility */
+}
+
+/* Style the container */
+.box {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent container background */
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Style the notice board */
+.notice-board ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style the search bar */
+.search-bar {
+  text-align: center;
+}
+
+#search {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#search-button {
+  background-color: #007BFF; /* Search button background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#search-button:hover {
+  background-color: #0056b3; /* Change the button color on hover */
+}
+
+/* Style the services area */
+.home-services {
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333; /* Text color for headings */
+}
+
+/* Style the login and signup forms */
+.login, .signup {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #007BFF; /* Form button background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3; /* Change the button color on hover */
+}
